@@ -1,0 +1,135 @@
+/* font-family: 'Electrolize',
+sans-serif;
+font-family: 'Montserrat',
+sans-serif;
+font-family: 'Rubik 80s Fade',
+cursive; */
+
+/* FF89A9 = pink
+004552 = greenish blue
+837569 = shadow brown */
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+body {
+  background-color: #004552;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 60vw;
+  margin: auto;
+  margin-top: 0;
+}
+
+.card-white {
+  background-color: #FAF9F0;
+  box-shadow: 5px 7px 0 rgba(131,117,105,.7);
+  border-radius: 3px;
+  padding: 1em;
+  margin-bottom: 1em;
+  text-align: center;
+}
+
+.card-header {
+  background-color: #004552;
+  padding: 0;
+  margin-top: 1em;
+  text-align: center;
+}
+
+.card-intro {
+  padding: 2em;
+}
+
+.card-intro p {
+  margin-bottom: 2em;
+}
+
+svg {
+  color: #004552;
+}
+
+svg:hover {
+  color:#FF85a5
+}
+
+h1 {
+    font-family: 'Rubik 80s Fade', cursive;
+    color: #FF5C87;
+    font-size: 42px;
+    letter-spacing: 3px;
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'Electrolize', sans-serif;
+    color: #ff7096;
+    font-size: 20px;
+    line-height: 0.5;
+}
+
+a {
+    font-family: 'Electrolize', sans-serif;
+    text-decoration: none;
+}
+
+p {
+  color: #312129;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  line-height: 1.6;
+  font-size: 16px;
+}
+
+.list {
+  line-height: 0.3;
+}
+
+.green-text {
+  color: #004552;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 800;
+  line-height: 1;
+  padding: 0;
+  margin: 0;
+  font-size:small;
+  text-decoration: overline;
+}
+
+.btn-main {
+  padding: 10px 10px;
+  background: #837569;
+  color: #FAF9F0;
+  border-radius: 4px;
+  margin: 1em 0;
+}
+
+.btn-main:hover {
+  background: #FF85a5;
+  color: #FAF9F0;
+}
+
+#profilepic {
+  width: 35vw;
+  border-radius: 50%;
+}
